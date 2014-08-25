@@ -1,0 +1,21 @@
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Métrica & Descrição                                                                                                              
+ \\ \hline
+
+ACCM (\textit{Average Cyclomatic Complexity per Method})   & Mede a complexidade do métodos ou funções de um programa. Essa métrica pode ser representada através de um grafo de fluxo de controle, sendo que o uso de estruturas de controle, tais como, \textit\{if, else, while\} aumentam a complexidade ciclomática de um de um método \cite{McCabe76}.  \\ \hline
+
+ANPM (\textit{Average Number of Parameters per Method} - Média do Número de Parâmetros por Método) & Calcula a média de parâmetros dos métodos da classe  o valor mínimo desta métrica é zero e não existe um limite máximo para o seu resultado, mas um número alto de parâmetros pode indicar que um método pode ter mais de uma responsabilidade \cite{Basili1987} \\ \hline
+
+AMLOC (\textit{Average Method Lines of Code} - Média do número de linhas de código por método) &  Indica se o código está bem distribuído entre os métodos. Quanto maior, mais pesados são os métodos. É preferível ter muitas operações pequenas e de fácil entendimento que poucas operações grandes e complexas \cite{Meirelles2013}
+ \\ \hline
+
+CBO (\textit{Coupling Between Objects} - Acoplamento entre Objetos) &  Número total de classes dentro de um pacote que dependem de classes externas ao pacote. Quando calculada no nível da classe, essa medida também é conhecida como Fan-out da classe \cite{Chidamber94} \\ \hline
+
+NOC (\textit{Number of Children} - Número de Filhos) & Número de subclasses ou classes filhas que herdam da classe analisada \cite{Rosenberg97}\\ \hline
+
+LCOM4 (\textit{Lack of Cohesion in Methods} - Falta de Coesão entre os Métodos) & Número de componentes (métodos e atributos) fracamente conectados a uma classe \cite{LCOM4}. \\ \hline
+
+RFC (\textit{Response For a Class} - Repostas para uma Classe) & Número de métodos dentre todos os métodos que podem ser invocados  em resposta a uma mensagem enviada por um objeto de uma classe \cite{Sharble93} \\ \hline
+
+\end{tabular}

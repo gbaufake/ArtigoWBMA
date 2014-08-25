@@ -1,0 +1,229 @@
+\begin{thebibliography}{}
+
+\bibitem[Basili and Rombach 1987]{Basili1987}
+Basili, V.~R. and Rombach, H.~D. (1987).
+\newblock {TAME: Integrating Measurement into Software Environments}.
+
+\bibitem[Beck 1999a]{beckarticle1999}
+Beck, K. (1999a).
+\newblock Embracing change with extreme programming.
+\newblock {\em Computer}, 32(10):70--77.
+
+\bibitem[Beck 1999b]{beck1999}
+Beck, K. (1999b).
+\newblock {\em Extreme Programming Explained}.
+\newblock Addison Wesley.
+
+\bibitem[Beck 2003]{beck2003test}
+Beck, K. (2003).
+\newblock {\em Test-driven development: by example}.
+\newblock Addison-Wesley Professional.
+
+\bibitem[Beck 2007]{beck2007implementation}
+Beck, K. (2007).
+\newblock {\em Implementation patterns}.
+\newblock Pearson Education.
+
+\bibitem[Becker et~al. 2006]{Becker2006}
+Becker, K., Ruiz, D.~D., Cunha, V.~S., Novello, T.~C., and Vieira~e Souza, F.
+  (2006).
+\newblock Spdw: A software development process performance data warehousing
+  environment.
+\newblock In {\em Proceedings of the 30th Annual IEEE/NASA Software Engineering
+  Workshop}, SEW '06, pages 107--118, Washington, DC, USA. IEEE Computer
+  Society.
+
+\bibitem[BRASIL 1993]{Lei8666:1993}
+BRASIL (1993).
+\newblock {\em Lei nª 8.666/93, de 21 de Junho de 1993}.
+\newblock Brasília, Brasil.
+
+\bibitem[BRASIL 2010]{IN04:2010}
+BRASIL (2010).
+\newblock {\em Instrução Normativa nº 04}.
+\newblock Tribunal de Contas da União, Brasília, Brasil.
+
+\bibitem[BRASIL 2013a]{TCU:2013}
+BRASIL (2013a).
+\newblock {\em Acórdão nº 2314}.
+\newblock Tribunal de Contas da Uni\~ao, Brasília, Brasil.
+
+\bibitem[BRASIL 2013b]{mcti}
+BRASIL (2013b).
+\newblock {\em Modelo de Contratação de Soluções de {TI}}.
+\newblock Minist\'erio do Planejamento, Orçamento e Gest\~ao, Brasília,
+  Brasil.
+
+\bibitem[Brereton et~al. 2008]{brereton2008using}
+Brereton, P., Kitchenham, B., Budgen, D., and Li, Z. (2008).
+\newblock Using a protocol template for case study planning.
+\newblock In {\em Proceedings of the 12th International Conference on
+  Evaluation and Assessment in Software Engineering. University of Bari,
+  Italy}.
+
+\bibitem[Castellanos et~al. 2005]{Castellanos2005}
+Castellanos, M., Casati, F., Shan, M.-C., and Dayal, U. (2005).
+\newblock ibom: A platform for intelligent business operation management.
+\newblock In {\em Proceedings of the 21st International Conference on Data
+  Engineering}, ICDE '05, pages 1084--1095, Washington, DC, USA. IEEE Computer
+  Society.
+
+\bibitem[Chaudhuri and Dayal 1997]{chaudhuri1997}
+Chaudhuri, S. and Dayal, U. (1997).
+\newblock An overview of data warehousing and olap technology.
+\newblock {\em ACM Sigmod record}, 26(1):65--74.
+
+\bibitem[Chidamber and Kemerer 1994]{Chidamber94}
+Chidamber, S.~R. and Kemerer, C.~F. (1994).
+\newblock {A Metrics Suite for Object-Oriented Design}.
+\newblock {\em IEEE Transactions on Software Engineering}, 20(6):476--493.
+
+\bibitem[Codd et~al. 1993]{Codd1993}
+Codd, E.~F., Codd, S.~B., and Salley, C.~T. (1993).
+\newblock {Providing OLAP (On-Line Analytical Processing) to User-Analysis: An
+  IT Mandate}.
+
+\bibitem[Folleco et~al. 2007]{Folleco2007}
+Folleco, A., Khoshgoftaar, T.~M., Hulse, J.~V., and Seiffert, C. (2007).
+\newblock Learning from software quality data with class imbalance and noise.
+\newblock In {\em Proceedings of the Nineteenth International Conference on
+  Software Engineering \& Knowledge Engineering (SEKE 2007), Boston,
+  Massachusetts, USA, July 9-11, 2007}, page 487. Knowledge Systems Institute
+  Graduate School.
+
+\bibitem[Fowler 1999]{fowler1999refactoring}
+Fowler, M. (1999).
+\newblock {\em Refactoring: improving the design of existing code}.
+\newblock Addison-Wesley Professional.
+
+\bibitem[Gardner 1998]{gardner1998}
+Gardner, S.~R. (1998).
+\newblock Building the.
+\newblock {\em Communications of the ACM}, 41(9):53.
+
+\bibitem[Gopal et~al. 2005]{Gopal2005}
+Gopal, A., Mukhopadhyay, T., and Krishnan, M.~S. (2005).
+\newblock The impact of institutional forces on software metrics programs.
+\newblock {\em IEEE Trans. Softw. Eng.}, 31(8):679--694.
+
+\bibitem[Hitz and Montazeri 1995]{LCOM4}
+Hitz, M. and Montazeri, B. (1995).
+\newblock {Measuring Coupling and Cohesion in Object-Oriented Systems}.
+\newblock In {\em {Proceedings of International Symposium on Applied Corporate
+  Computing}}.
+
+\bibitem[{ISO/IEC 25023} 2011]{ISO25023}
+{ISO/IEC 25023} (2011).
+\newblock {ISO/IEC} 25023: Systems and software engineering - systems and
+  software quality requirements and evaluation (square) - measurement of system
+  and software product quality.
+\newblock International Standard 25023, International Organization for
+  Standardization and International Electrotechnical Commission.
+
+\bibitem[Kimball and Ross 2002]{Kimball2002}
+Kimball, R. and Ross, M. (2002).
+\newblock {\em The Data Warehouse Toolkit: The Complete Guide to Dimensional
+  Modeling}.
+\newblock John Wiley \& Sons, Inc., New York, NY, USA, 2nd edition.
+
+\bibitem[Lehman 1980]{Lehman1980b}
+Lehman, M.~M. (1980).
+\newblock Programs, life cycles, and laws of software evolution.
+\newblock {\em Proc. IEEE}, 68(9):1060--1076.
+
+\bibitem[Li and Henry 1993]{Li1993}
+Li, W. and Henry, S. (1993).
+\newblock {Object-oriented metrics that predict maintainability}.
+\newblock {\em Journal of Systems and Software}, 23(2):111--122.
+
+\bibitem[Machini et~al. 2010]{Machini2010}
+Machini, J.~a., Almeida, L., Kon, F., and Meirelles, P. R.~M. (2010).
+\newblock {C\'{o}digo Limpo e seu Mapeamento para M\'{e}tricas de
+  C\'{o}digo-Fonte}.
+
+\bibitem[Marinescu 2005]{marinescu2005measurement}
+Marinescu, R. (2005).
+\newblock Measurement and quality in object-oriented design.
+\newblock In {\em Software Maintenance, 2005. ICSM'05. Proceedings of the 21st
+  IEEE International Conference on}, pages 701--704. IEEE.
+
+\bibitem[Martin 2008]{Martin2008}
+Martin, R.~C. (2008).
+\newblock {\em Clean Code: A Handbook of Agile Software Craftsmanship},
+  volume~1.
+
+\bibitem[McCabe 1976]{McCabe76}
+McCabe, T.~J. (1976).
+\newblock {A Complexity Measure}.
+\newblock {\em IEEE Transactions Software Engineering}, 2(4):308--320.
+
+\bibitem[Meirelles 2013]{Meirelles2013}
+Meirelles, P. R.~M. (2013).
+\newblock {\em Monitoramento de métricas de código-fonte em projetos de
+  software livre}.
+\newblock PhD thesis, Universidade de São Paulo (IME/USP).
+
+\bibitem[Mills 1999]{Mills:1999}
+Mills, E.~E. (1999).
+\newblock Metrics in the software engineering curriculum.
+\newblock {\em Ann. Softw. Eng.}, 6(1-4):181--200.
+
+\bibitem[Moha et~al. 2010]{moha2010decor}
+Moha, N., Gu{\'e}h{\'e}neuc, Y.-G., Duchien, L., and Le~Meur, A.-F. (2010).
+\newblock Decor: A method for the specification and detection of code and
+  design smells.
+\newblock {\em Software Engineering, IEEE Transactions on}, 36(1):20--36.
+
+\bibitem[Palza et~al. 2003]{Palza2003}
+Palza, E., Fuhrman, C., and Abran, A. (2003).
+\newblock Establishing a generic and multidimensional measurement repository in
+  cmmi context.
+\newblock In {\em Software Engineering Workshop, 2003. Proceedings. 28th Annual
+  NASA Goddard}, pages 12--20. IEEE.
+
+\bibitem[Rao and Reddy 2007]{rao2007detecting}
+Rao, A.~A. and Reddy, K.~N. (2007).
+\newblock Detecting bad smells in object oriented design using design change
+  propagation probability matrix 1.
+
+\bibitem[Rocha 2000]{andre2000}
+Rocha, A.~B. (2000).
+\newblock Guardando históricos de dimensões em data warehouses.
+
+\bibitem[Rosenberg and Hyatt 1997]{Rosenberg97}
+Rosenberg, L.~H. and Hyatt, L.~E. (1997).
+\newblock {Software Quality Metrics for Object-Oriented Environments}.
+\newblock {\em Crosstalk - the Journal of Defense Software Engineering}, 10.
+
+\bibitem[Ruiz et~al. 2005]{Ruiz2005}
+Ruiz, D. D.~A., Becker, K., Novello, T.~C., and Cunha, V.~S. (2005).
+\newblock A data warehousing environment to monitor metrics in software
+  development processes.
+\newblock In {\em 16th International Workshop on Database and Expert Systems
+  Applications (DEXA 2005), 22-26 August 2005, Copenhagen, Denmark}, pages
+  936--940. IEEE Computer Society.
+
+\bibitem[Sharble and Cohen 1993]{Sharble93}
+Sharble, R. and Cohen, S. (1993).
+\newblock {The Object-Oriented Brewery: A Comparison of Two Object-Oriented
+  Development Methods}.
+\newblock {\em Software Engineering Notes}, 18(2):60--73.
+
+\bibitem[Silveira et~al. 2010]{Silveira2010}
+Silveira, P.~S., Becker, K., and Ruiz, D.~D. (2010).
+\newblock Spdw+: a seamless approach for capturing quality metrics in software
+  development environments.
+\newblock {\em Software Quality Control}, 18(2):227--268.
+
+\bibitem[Wohlin et~al. 2012]{wohlin2012experimentation}
+Wohlin, C., Runeson, P., H{\"o}st, M., Ohlsson, M.~C., Regnell, B., and
+  Wessl{\'e}n, A. (2012).
+\newblock {\em Experimentation in software engineering}.
+\newblock Springer.
+
+\bibitem[Yin 2011]{yin2011applications}
+Yin, R.~K. (2011).
+\newblock {\em Applications of case study research}.
+\newblock Sage.
+
+\end{thebibliography}

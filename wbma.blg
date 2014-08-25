@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: wbma.aux
+The style file: sbc.bst
+Database file #1: myReferences.bib
+Warning--entry type for "andre2000" isn't style-file defined
+--line 315 of file myReferences.bib
+Warning--empty publisher in Martin2008
+Warning--empty journal in rao2007detecting
+You've used 40 entries,
+            1935 wiz_defined-function locations,
+            718 strings with 10206 characters,
+and the built_in function-call counts, 14500 in all, are:
+= -- 1430
+> -- 521
+< -- 36
++ -- 178
+- -- 168
+* -- 1133
+:= -- 2533
+add.period$ -- 120
+call.type$ -- 40
+change.case$ -- 272
+chr.to.int$ -- 38
+cite$ -- 42
+duplicate$ -- 618
+empty$ -- 1050
+format.name$ -- 226
+if$ -- 2874
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 38
+newline$ -- 197
+num.names$ -- 120
+pop$ -- 271
+preamble$ -- 1
+purify$ -- 284
+quote$ -- 0
+skip$ -- 463
+stack$ -- 0
+substring$ -- 897
+swap$ -- 92
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 224
+warning$ -- 2
+while$ -- 114
+width$ -- 0
+write$ -- 507
+(There were 3 warnings)

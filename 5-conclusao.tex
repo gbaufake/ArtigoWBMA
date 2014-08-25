@@ -1,0 +1,19 @@
+\section{Conclusões e Trabalhos Futuros}
+
+No ínicio deste trabalho, questionou-se como automatizar um processo de medição da qualidade internado produto de forma que o fiscal técnico do contrato possa verificar oportunidades de melhoria no código-fonte do produto. 
+
+A avaliação de indicadores de código-limpo e acompanhamento da taxa de oportunidades de melhoria de código-fonte são contribuições a monitoramento do código-fonte, pois o acompanhamento destes pode permitir à equipe de desenvolvimento ou até a mesmo a gestores/fiscais de projeto tomarem decisões técnicas mais eficientes no que diz respeito ao código-fonte de um projeto.
+
+Com os resultados apresentados na Seção \ref{sec:resultados}, acredita-se que o ambiente de \textit{data warehousing} pode configurar uma boa solução para automatizar a medição de qualidade do código-fonte, pois foi possível ver tanto em nível macro (projeto), quanto em nível micro (classes e módulos) a saúde do projeto com relação a qualidade do código-fonte de forma que os fiscais técnicos podem exigir, desde que esteja protocolo no edital da licitação, níveis de aceitação da qualidade do código-fonte com relação a estes dois indicadores. Outro aspecto que reforça a posição de uma boa solução para o ambiente de \textit{data warehousing}, são os tempos apresentados na Tabela \ref{tab:time}, os quais verificamos ser relativamente baixos para necessidade do negócio.	
+
+\begin{table}[!ht]
+\centering
+\caption{Tempo de Execução de cada passo automatizado}
+\label{tab:time}
+\input{tabelas/tempos.ltx}
+\end{table}
+\FloatBarrier
+
+Cabe ressaltar que o IPHAN não realizou análise das métricas de código-fonte e nem pediu a contratada que documentasse as atividades de refatoração de código-fonte ao longo da execução do contrato. Este fato foi o fator limitante a investigação das hipóteses levantadas com relação a taxa de aproveitamento de oportunidades de melhoria do código-fonte. 
+
+Como trabalho futuro, ressalta-se a necessidade de melhor investigação das hipóteses com relação a taxa de aproveitamento de oportunidades de melhoria de código-fonte em outros projetos, como por exemplo, os que são ou foram desenvolvidos nos outros orgãos citados pelo Acórdão no 2314/2013 \cite{TCU:2013}, desde que seja possível documentar as atividades de refatoração do código-fonte ao longo do desenvolvimento de software. 
