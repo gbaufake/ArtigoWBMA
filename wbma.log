@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  26 AUG 2014 22:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  27 AUG 2014 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,52 +657,52 @@ Underfull \hbox (badness 1337) in paragraph at lines 8--9
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 8--9
-\OT1/ptm/m/n/12 pro-cesso de medi[][]ao
+Underfull \hbox (badness 4168) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 qua-li-dade do c[]odigo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-\OT1/ptm/m/n/12 QE1.2 - Quais pas-sos s[]ao
+Underfull \hbox (badness 4699) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 fonte do pro-duto de
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 19--20
+Underfull \hbox (badness 2856) in paragraph at lines 17--18
 []\OT1/ptm/m/n/12 QE3 - Quais s[]ao os in-di-ca-
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 19--20
+Underfull \hbox (badness 1565) in paragraph at lines 17--18
 \OT1/ptm/m/n/12 c[]odigo-fonte de uma de-ter-mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 \OT1/ptm/m/n/12 de Lim-peza iden-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 20--20
+Underfull \hbox (badness 6708) in paragraph at lines 18--18
 \OT1/ptm/m/n/12 dos em uma de-ter-mi-nada
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 22--23
+Underfull \hbox (badness 2302) in paragraph at lines 20--21
 []\OT1/ptm/m/n/12 OE4 - Me-dir qual []e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 \OT1/ptm/m/n/12 o apro-vei-ta-mento de
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 22--23
+Underfull \hbox (badness 2035) in paragraph at lines 20--21
 \OT1/ptm/m/n/12 opor-tu-ni-da-des de me-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 23--24
+Underfull \hbox (badness 1810) in paragraph at lines 21--22
 \OT1/ptm/m/n/12 de opor-tu-ni-da-des de me-lho-ria
  []
 
@@ -974,14 +974,14 @@ o.pdf>
 (epstopdf)                    size: 22945 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenario-tipo
 -eps-converted-to.pdf figuras/total-cenario-tipo.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/total-cenario-tipo-eps-converted-to.pdf, id=45, 993.7125pt x 168.63pt>
 File: figuras/total-cenario-tipo-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/total-cenario-tipo-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenario-tipo-eps-converted-to.pdf used o
-n input line 24.
+n input line 21.
 (pdftex.def)             Requested size: 427.28804pt x 72.50948pt.
 Package epstopdf Info: Source file: <figuras/total-cenarios-release.eps>
 (epstopdf)                    date: 2014-06-17 15:50:52
@@ -992,7 +992,7 @@ ed-to.pdf>
 (epstopdf)                    size: 9597 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenarios-rel
 ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/total-cenarios-release-eps-converted-to.pdf, id=46, 951.555pt x 49.183
@@ -1001,10 +1001,10 @@ File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figuras/total-cenarios-release-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenarios-release-eps-converted-to.pdf us
-ed on input line 35.
+ed on input line 32.
 (pdftex.def)             Requested size: 428.19579pt x 22.13246pt.
 
-Overfull \hbox (1.40443pt too wide) in paragraph at lines 35--36
+Overfull \hbox (1.40443pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
@@ -1016,14 +1016,14 @@ Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    size: 120935 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-best-eps-conver
 ted-to.pdf figuras/10-best.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 <figuras/10-best-eps-converted-to.pdf, id=47, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-best-eps-converted-to.pdf used on input lin
-e 48.
+e 45.
 (pdftex.def)             Requested size: 375.40366pt x 204.81581pt.
  [8 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenari
 os-release-eps-converted-to.pdf>]
@@ -1036,7 +1036,7 @@ Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    size: 39908 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-parcial-eps-c
 onverted-to.pdf figuras/taxa-parcial.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/taxa-parcial-eps-converted-to.pdf, id=57, 947.54pt x 466.74374pt>
@@ -1044,7 +1044,7 @@ File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
-t line 58.
+t line 55.
 (pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
 ) (./5-conclusao.tex [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/tax
 a-parcial-eps-converted-to.pdf>]
@@ -1082,11 +1082,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5974 strings out of 493307
- 84787 string characters out of 6139905
- 180031 words of memory out of 5000000
- 9245 multiletter control sequences out of 15000+600000
- 37097 words of font info for 67 fonts, out of 8000000 for 9000
+ 5971 strings out of 493307
+ 84758 string characters out of 6139905
+ 180120 words of memory out of 5000000
+ 9243 multiletter control sequences out of 15000+600000
+ 35413 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,40p,1270b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1101,7 +1101,7 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on wbma.pdf (12 pages, 712930 bytes).
+Output written on wbma.pdf (12 pages, 714332 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
