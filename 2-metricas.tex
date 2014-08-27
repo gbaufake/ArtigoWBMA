@@ -3,9 +3,9 @@
 A qualidade interna do produto de software pode ser medida, ainda em ambiente de desenvolvimento, por meio da avaliação de estruturas internas que compõem o sistema de software \cite{ISO25023}, sendo que as métricas extraídas diretamente do código-fonte são bons indicadores de qualidade interna de produto \cite{beck2003test}, pois são métricas objetivas e com características como validade, simplicidade, objetividade, fácil obtenção e robustez \cite{Mills:1999}.  
 
 
-Visando a identificação de um conjunto pequeno porém representativo de métricas de código-fonte que possam aferir a qualidade interna do produto de software em desenvolvimento, realizou-se uma revisão da literatura buscando identificar métricas para conceitos amplamente conhecidos como o tamanho do código-fonte que foi um dos primeiros conceitos mensuráveis do software; a complexidade que aumenta à medida que o software é evoluído, sendo que métricas de complexidade estão ligadas as métricas de tamanho \cite{Lehman1980b}; e métricas associadas a bom design no paradigma da orientação à objetos que permitiu evolução no desenvolvimento quando comparado ao paradigma procedural, fato que implicou a paradigma de orientação à objetos uma longa permanência na academia quanto na indústria de desenvolvimento de software \cite{Li1993}. Estas métricas foram reunidas e são apresentadas na Tabela \ref{orientacao}.     
+Visando a identificação de um conjunto pequeno porém representativo de métricas de código-fonte que possam aferir a qualidade interna do produto de software em desenvolvimento, realizou-se uma revisão da literatura buscando identificar métricas para conceitos amplamente conhecidos como o tamanho do código-fonte que foi um dos primeiros conceitos mensuráveis do software; a complexidade que aumenta à medida que o software é evoluído, sendo que métricas de complexidade estão ligadas as métricas de tamanho \cite{Lehman1980b}; e métricas associadas a bom design no paradigma da orientação à objetos. Estas métricas foram reunidas e são apresentadas na Tabela \ref{orientacao}.     
 
-	\begin{table}[!ht]
+	\begin{table}[h]
 	\caption{Conjunto de Métricas de Código-Fonte}
 	\addtolength{\belowcaptionskip}{6pt}
 	\begin{center}
@@ -13,7 +13,6 @@ Visando a identificação de um conjunto pequeno porém representativo de métri
 	\label{orientacao}
 	\end{center}
 	\end{table}
-	\FloatBarrier
 
 Em um trabalho recente sobre a análise de métricas de código-fonte, foi observado o comportamento estatístico das métricas de código-fonte de 38 projetos de software livre com mais de 100.000 downloads em um esforço de análise de mais de 300.000 classes. Entre os softwares analisados estão Tomcat, OpenJDK, Eclipse, Google Chrome, VLC e entre outros que foram desenvolvidos em C, C++ e Java \cite{Meirelles2013}. Neste trabalho, concluiu-se que há valores muitos frequentes, frequentes, pouco frequentes e não frequentes para softwares escritos em uma mesma linguagem de programação. Ao considerarmos a linguagem Java e o softwares que obtiveram os melhores resultados, como Eclipse e o OpenJDK 8, obtiveram-se as configurações tal como se mostra na Tabela \ref{tab:good-metrics}.  
 
@@ -26,20 +25,18 @@ Em um trabalho recente sobre a análise de métricas de código-fonte, foi obser
 	\label{tab:good-metrics}
 	\end{center}
 	\end{table}
-	\FloatBarrier
+Em outros trabalhos como os de Marinescu  \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado é possível detectar pedaços de código-fonte que podem ser melhorado\cite{fowler1999refactoring}, com a utilização de métricas de código-fonte como forma de detecção. \cite{Machini2010}, tendo como base alguns destes trabalhos, construiu um mapeamento entre as métricas de código-fonte e as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a construir cenários que indicam a possibilidade de melhoria no código-fonte.
 
-Em outros trabalhos como os de Marinescu  \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado é possível detectar pedaços de código-fonte que podem ser melhorados, conhecidos como \textit{code-smell} \cite{fowler1999refactoring}, com a utilização de métricas de código-fonte como forma de detecção. Embasado em alguns destes trabalhos, \cite{Machini2010} construiu um mapeamento entre as métricas de código-fonte e as técnicas e práticas propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a construir cenários que indicam a possibilidade de melhoria no código-fonte.
-
-Considerando alguns cenários do trabalho de Machini \cite{Machini2010} como base, foram construídos mapeamentos chamados de cenários de limpeza de código-fonte, que são mostrados Tabela \ref{tab:cenarios}. Cada cenário foi identificado por um nome, características da disposição do código-fonte, recomendações a fim de eliminar o pedaço de código não coesa e a forma de detecção pelos intervalos de frequência do trabalho de Meirelles \cite{Meirelles2013} que é compatível também com a forma de detecção apresentada nos trabalhos de Marinescu, Moha e Rao.
+Considerando alguns cenários do trabalho de Machini \cite{Machini2010} como base, foram construídos mapeamentos chamados de cenários de limpeza de código-fonte, que são mostrados Tabela \ref{tab:cenarios}. Cada cenário foi identificado por um nome, características da disposição do código-fonte, recomendações a fim de eliminar o pedaço de código não coeso e a forma de detecção pelos intervalos de frequência do trabalho de Meirelles \cite{Meirelles2013} que é compatível também com a forma de detecção apresentada nos trabalhos de Marinescu, Moha e Rao.
 	
-	\begin{table}[H]
+	\begin{table}[ht]
 	\centering
 	\caption{Cenários de Limpeza de Código-Fonte}
 	\addtolength{\belowcaptionskip}{6pt}
 	\input{tabelas/cenarios.ltx}	
 	\label{tab:cenarios}
 	\end{table}
-	\FloatBarrier
+
 
 A partir da identificação dos cenários de limpeza de código-fonte e da contagem do número de classes em uma determinada \textit{release} do software, criou-se Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte como uma indicador objetivo de melhoria da qualidade do código-fonte, sendo que este é descrito conforme a Equação \ref{eqn01}.
 

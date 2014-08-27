@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  25 AUG 2014 02:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  26 AUG 2014 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,13 +615,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./abstract.tex
+) (./resumo.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
 )
-(./resumo.tex) (./1-introducao.tex
+(./1-introducao.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <figuras/MCTI.eps>
 (epstopdf)                    date: 2014-08-20 23:09:00
 (epstopdf)                    size: 1434444 bytes
@@ -630,31 +633,86 @@ Package epstopdf Info: Source file: <figuras/MCTI.eps>
 (epstopdf)                    size: 18095 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/MCTI-eps-converted
 -to.pdf figuras/MCTI.eps>
-(epstopdf)             \includegraphics on input line 19.
+(epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/MCTI-eps-converted-to.pdf, id=1, 555.07375pt x 239.89626pt>
+<figuras/MCTI-eps-converted-to.pdf, id=12, 555.07375pt x 239.89626pt>
 File: figuras/MCTI-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/MCTI-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/MCTI-eps-converted-to.pdf used on input line 1
-9.
+5.
 (pdftex.def)             Requested size: 388.54897pt x 167.92622pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 20.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 16.
+
+(./tabelas/objetivos.ltx
+Underfull \hbox (badness 1337) in paragraph at lines 8--9
+[]\OT1/ptm/m/n/12 OE1 - Au-to-ma-ti-zar o
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 5667) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 pro-cesso de medi[][]ao
+ []
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./2-metricas.tex
-[2 <./figuras/MCTI-eps-converted-to.pdf>] (./tabelas/orientacao-objeto.ltx
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+\OT1/ptm/m/n/12 QE1.2 - Quais pas-sos s[]ao
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 19--20
+[]\OT1/ptm/m/n/12 QE3 - Quais s[]ao os in-di-ca-
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 19--20
+\OT1/ptm/m/n/12 c[]odigo-fonte de uma de-ter-mi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/ptm/m/n/12 de Lim-peza iden-ti-fi-ca-
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 20--20
+\OT1/ptm/m/n/12 dos em uma de-ter-mi-nada
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 22--23
+[]\OT1/ptm/m/n/12 OE4 - Me-dir qual []e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+\OT1/ptm/m/n/12 o apro-vei-ta-mento de
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 22--23
+\OT1/ptm/m/n/12 opor-tu-ni-da-des de me-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 23--24
+\OT1/ptm/m/n/12 de opor-tu-ni-da-des de me-lho-ria
+ []
+
+)
+Overfull \hbox (21.77359pt too wide) in paragraph at lines 1--31
+ [][] 
+ []
+
+[2 <./figuras/MCTI-eps-converted-to.pdf>]) (./2-metricas.tex
+(./tabelas/orientacao-objeto.ltx
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -665,21 +723,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]\OT1/ptm/m/n/12 ANPM (\OT1/ptm/m/it/12 Ave-rage Num-ber
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 8--8
-\OT1/ptm/m/it/12 of Pa-ra-me-ters per Method
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\OT1/ptm/m/n/12 - M[]edia do N[]umero de
- []
-
-
 Underfull \hbox (badness 5119) in paragraph at lines 10--10
 []\OT1/ptm/m/n/12 AMLOC (\OT1/ptm/m/it/12 Ave-rage Method
  []
@@ -689,17 +732,11 @@ Underfull \hbox (badness 1082) in paragraph at lines 10--10
 \OT1/ptm/m/it/12 Li-nes of Code \OT1/ptm/m/n/12 - M[]edia do
  []
 
+)
 
-Underfull \hbox (badness 2027) in paragraph at lines 10--11
-\OT1/ptm/m/n/12 m[]etodos. Quanto maior, mais pe-sa-dos s[]ao os
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 4096) in paragraph at lines 13--13
-\OT1/ptm/m/it/12 jects \OT1/ptm/m/n/12 - Aco-pla-mento en-tre
- []
-
-) [3] (./tabelas/metricas.ltx) [4] (./tabelas/cenarios.ltx
+(./tabelas/metricas.ltx) [3] [4] (./tabelas/cenarios.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 []\OT1/ptm/m/n/12 Classe Sub-di-vida
  []
@@ -895,7 +932,7 @@ Underfull \hbox (badness 6641) in paragraph at lines 22--22
  []
 
 )
-Overfull \hbox (2.47583pt too wide) in paragraph at lines 1--41
+Overfull \hbox (2.47583pt too wide) in paragraph at lines 1--38
  [][] 
  []
 
@@ -917,7 +954,7 @@ File: figuras/Dwing-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/Dwing-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Dwing-eps-converted-to.pdf used on input line 
 10.
-(pdftex.def)             Requested size: 295.08977pt x 293.58421pt.
+(pdftex.def)             Requested size: 275.42712pt x 274.02188pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
@@ -1010,34 +1047,10 @@ Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
 t line 58.
 (pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
 ) (./5-conclusao.tex [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/tax
-a-parcial-eps-converted-to.pdf>] (./tabelas/tempos.ltx
-Underfull \hbox (badness 1953) in paragraph at lines 3--3
-[]\OT1/ptm/m/n/12 Release 2 (69 clas-ses -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-[]\OT1/ptm/m/n/12 Tempo execu[][]ao da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-\OT1/ptm/m/n/12 avalia[][]ao dos Cen[]arios
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-\OT1/ptm/m/n/12 de Lim-peza de C[]odigo-
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 tu-ni-da-des de Me-lho-ria de
- []
-
-)
-Overfull \hbox (1.85675pt too wide) in paragraph at lines 1--14
- [][] 
+a-parcial-eps-converted-to.pdf>]
+Underfull \hbox (badness 1859) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/12 Com os re-sul-ta-dos apre-sen-ta-dos na Se[][]ao 4.2[], verfi
+ca-se que uma ou-tra
  []
 
 ) (./wbma.bbl
@@ -1069,13 +1082,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5976 strings out of 493307
- 84798 string characters out of 6139905
- 172031 words of memory out of 5000000
- 9246 multiletter control sequences out of 15000+600000
- 35413 words of font info for 65 fonts, out of 8000000 for 9000
+ 5974 strings out of 493307
+ 84787 string characters out of 6139905
+ 180031 words of memory out of 5000000
+ 9245 multiletter control sequences out of 15000+600000
+ 37097 words of font info for 67 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,14n,40p,1021b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,40p,1270b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
@@ -1088,7 +1101,7 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on wbma.pdf (12 pages, 712137 bytes).
+Output written on wbma.pdf (12 pages, 712930 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream

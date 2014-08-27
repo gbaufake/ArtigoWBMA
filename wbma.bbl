@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Basili et~al. 1996]{Basili96b}
+Basili, V.~R., Caldiera, G., and Rombach, H.~D. (1996).
+\newblock {\em {The Goal Question Metric Approach}}.
+\newblock Encyclopedia of Software Engineering.
+
 \bibitem[Basili and Rombach 1987]{Basili1987}
 Basili, V.~R. and Rombach, H.~D. (1987).
 \newblock {TAME: Integrating Measurement into Software Environments}.
@@ -130,11 +135,6 @@ Kimball, R. and Ross, M. (2002).
 Lehman, M.~M. (1980).
 \newblock Programs, life cycles, and laws of software evolution.
 \newblock {\em Proc. IEEE}, 68(9):1060--1076.
-
-\bibitem[Li and Henry 1993]{Li1993}
-Li, W. and Henry, S. (1993).
-\newblock {Object-oriented metrics that predict maintainability}.
-\newblock {\em Journal of Systems and Software}, 23(2):111--122.
 
 \bibitem[Machini et~al. 2010]{Machini2010}
 Machini, J.~a., Almeida, L., Kon, F., and Meirelles, P. R.~M. (2010).
