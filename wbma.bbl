@@ -9,6 +9,11 @@ Basili, V.~R., Caldiera, G., and Rombach, H.~D. (1996).
 Basili, V.~R. and Rombach, H.~D. (1987).
 \newblock {TAME: Integrating Measurement into Software Environments}.
 
+\bibitem[Beck 1997]{beck1997smalltalk}
+Beck, K. (1997).
+\newblock {\em Smalltalk Best Practice Patterns. Volume 1: Coding}.
+\newblock Prentice Hall, Englewood Cliffs, NJ.
+
 \bibitem[Beck 1999a]{beckarticle1999}
 Beck, K. (1999a).
 \newblock Embracing change with extreme programming.

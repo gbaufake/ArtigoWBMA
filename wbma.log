@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  27 AUG 2014 14:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.18)  30 AUG 2014 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -618,8 +618,18 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (./resumo.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
-)
-(./1-introducao.tex
+
+Underfull \hbox (badness 5431) in paragraph at lines 3--8
+[]\OT1/ptm/m/it/12 Atualmente, al-gu-mas organiza[][]oes da Administra[][]ao P[
+]ublica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+ []
+
+) (./1-introducao.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [1
@@ -667,6 +677,11 @@ Underfull \hbox (badness 4699) in paragraph at lines 8--9
  []
 
 
+Underfull \hbox (badness 1348) in paragraph at lines 9--10
+\OT1/ptm/m/n/12 pas-sos ne-cess[]arios para me-dir
+ []
+
+
 Underfull \hbox (badness 2856) in paragraph at lines 17--18
 []\OT1/ptm/m/n/12 QE3 - Quais s[]ao os in-di-ca-
  []
@@ -707,7 +722,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 21--22
  []
 
 )
-Overfull \hbox (21.77359pt too wide) in paragraph at lines 1--31
+Overfull \hbox (21.77359pt too wide) in paragraph at lines 1--30
  [][] 
  []
 
@@ -725,11 +740,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 Underfull \hbox (badness 5119) in paragraph at lines 10--10
 []\OT1/ptm/m/n/12 AMLOC (\OT1/ptm/m/it/12 Ave-rage Method
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 10--10
-\OT1/ptm/m/it/12 Li-nes of Code \OT1/ptm/m/n/12 - M[]edia do
  []
 
 )
@@ -992,7 +1002,7 @@ ed-to.pdf>
 (epstopdf)                    size: 9597 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenarios-rel
 ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/total-cenarios-release-eps-converted-to.pdf, id=46, 951.555pt x 49.183
@@ -1001,13 +1011,15 @@ File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figuras/total-cenarios-release-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenarios-release-eps-converted-to.pdf us
-ed on input line 32.
+ed on input line 31.
 (pdftex.def)             Requested size: 428.19579pt x 22.13246pt.
 
-Overfull \hbox (1.40443pt too wide) in paragraph at lines 32--33
+Overfull \hbox (1.40443pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
+[8 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenario
+s-release-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    date: 2014-06-17 15:50:52
 (epstopdf)                    size: 1538818 bytes
@@ -1016,17 +1028,16 @@ Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    size: 120935 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-best-eps-conver
 ted-to.pdf figuras/10-best.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/10-best-eps-converted-to.pdf, id=47, 682.55pt x 372.39125pt>
+
+<figuras/10-best-eps-converted-to.pdf, id=56, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-best-eps-converted-to.pdf used on input lin
-e 45.
+e 43.
 (pdftex.def)             Requested size: 375.40366pt x 204.81581pt.
- [8 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenari
-os-release-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    date: 2014-06-17 15:50:52
 (epstopdf)                    size: 2673264 bytes
@@ -1036,7 +1047,7 @@ Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    size: 39908 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-parcial-eps-c
 onverted-to.pdf figuras/taxa-parcial.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/taxa-parcial-eps-converted-to.pdf, id=57, 947.54pt x 466.74374pt>
@@ -1044,7 +1055,7 @@ File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
-t line 55.
+t line 53.
 (pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
 ) (./5-conclusao.tex [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/tax
 a-parcial-eps-converted-to.pdf>]
@@ -1082,10 +1093,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5971 strings out of 493307
- 84758 string characters out of 6139905
- 180120 words of memory out of 5000000
- 9243 multiletter control sequences out of 15000+600000
+ 5972 strings out of 493307
+ 84777 string characters out of 6139905
+ 180131 words of memory out of 5000000
+ 9244 multiletter control sequences out of 15000+600000
  35413 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,40p,1270b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1101,7 +1112,7 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on wbma.pdf (12 pages, 714332 bytes).
+Output written on wbma.pdf (12 pages, 715643 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
