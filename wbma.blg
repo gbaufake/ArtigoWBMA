@@ -4,48 +4,49 @@ The top-level auxiliary file: wbma.aux
 The style file: sbc.bst
 Database file #1: myReferences.bib
 Warning--entry type for "andre2000" isn't style-file defined
---line 158 of file myReferences.bib
+--line 165 of file myReferences.bib
+Warning--empty journal in Golfarelli1998
 Warning--empty publisher in Martin2008
 Warning--empty journal in rao2007detecting
-You've used 41 entries,
+You've used 42 entries,
             1935 wiz_defined-function locations,
-            720 strings with 10329 characters,
-and the built_in function-call counts, 14712 in all, are:
-= -- 1443
-> -- 533
+            724 strings with 10465 characters,
+and the built_in function-call counts, 15042 in all, are:
+= -- 1472
+> -- 551
 < -- 36
-+ -- 182
-- -- 172
-* -- 1140
-:= -- 2579
-add.period$ -- 123
-call.type$ -- 41
-change.case$ -- 277
-chr.to.int$ -- 39
-cite$ -- 43
-duplicate$ -- 632
-empty$ -- 1066
-format.name$ -- 229
-if$ -- 2914
++ -- 188
+- -- 178
+* -- 1168
+:= -- 2641
+add.period$ -- 125
+call.type$ -- 42
+change.case$ -- 285
+chr.to.int$ -- 40
+cite$ -- 45
+duplicate$ -- 645
+empty$ -- 1086
+format.name$ -- 236
+if$ -- 2974
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 41
-newline$ -- 202
-num.names$ -- 123
-pop$ -- 286
+missing$ -- 42
+newline$ -- 206
+num.names$ -- 126
+pop$ -- 296
 preamble$ -- 1
-purify$ -- 291
+purify$ -- 299
 quote$ -- 0
-skip$ -- 471
+skip$ -- 481
 stack$ -- 0
-substring$ -- 884
+substring$ -- 896
 swap$ -- 93
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 226
-warning$ -- 2
-while$ -- 114
+type$ -- 232
+warning$ -- 3
+while$ -- 116
 width$ -- 0
-write$ -- 518
-(There were 3 warnings)
+write$ -- 528
+(There were 4 warnings)
