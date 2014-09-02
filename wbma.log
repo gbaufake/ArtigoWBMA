@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  1 SEP 2014 23:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  1 SEP 2014 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,10 +1114,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5990 strings out of 493304
- 85111 string characters out of 6139872
- 176700 words of memory out of 5000000
- 9265 multiletter control sequences out of 15000+600000
+ 5989 strings out of 493304
+ 85095 string characters out of 6139872
+ 176676 words of memory out of 5000000
+ 9264 multiletter control sequences out of 15000+600000
  35413 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,40p,1272b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1133,7 +1133,7 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on wbma.pdf (12 pages, 691763 bytes).
+Output written on wbma.pdf (12 pages, 691345 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
