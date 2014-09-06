@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  1 SEP 2014 22:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  5 SEP 2014 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,73 +664,8 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 16.
-
-(./tabelas/objetivos.ltx
-Underfull \hbox (badness 1337) in paragraph at lines 8--9
-[]\OT1/ptm/m/n/12 OE1 - Au-to-ma-ti-zar o
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 8--9
-\OT1/ptm/m/n/12 qua-li-dade do c[]odigo-
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 8--9
-\OT1/ptm/m/n/12 fonte do pro-duto de
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 9--10
-\OT1/ptm/m/n/12 pas-sos ne-cess[]arios para me-dir
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 17--18
-[]\OT1/ptm/m/n/12 QE3 - Quais s[]ao os in-di-ca-
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 17--18
-\OT1/ptm/m/n/12 c[]odigo-fonte de uma de-ter-mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-\OT1/ptm/m/n/12 de Lim-peza iden-ti-fi-ca-
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 18--18
-\OT1/ptm/m/n/12 dos em uma de-ter-mi-nada
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 20--21
-[]\OT1/ptm/m/n/12 OE4 - Me-dir qual []e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-\OT1/ptm/m/n/12 o apro-vei-ta-mento de
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 20--21
-\OT1/ptm/m/n/12 opor-tu-ni-da-des de me-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 21--22
-\OT1/ptm/m/n/12 de opor-tu-ni-da-des de me-lho-ria
- []
-
 )
-Overfull \hbox (21.77359pt too wide) in paragraph at lines 1--40
- [][] 
- []
-
-[2 <./figuras/MCTI-eps-converted-to.pdf>]) (./2-metricas.tex
+(./2-metricas.tex [2 <./figuras/MCTI-eps-converted-to.pdf>]
 (./tabelas/orientacao-objeto.ltx
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 6.
 
@@ -746,11 +681,7 @@ Underfull \hbox (badness 5119) in paragraph at lines 10--10
 []\OT1/ptm/m/n/12 AMLOC (\OT1/ptm/m/it/12 Ave-rage Method
  []
 
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./tabelas/metricas.ltx) [3] [4] (./tabelas/cenarios.ltx
+) [3] (./tabelas/metricas.ltx) (./tabelas/cenarios.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 []\OT1/ptm/m/n/12 Classe Sub-di-vida
  []
@@ -950,35 +881,126 @@ Overfull \hbox (2.47583pt too wide) in paragraph at lines 1--38
  [][] 
  []
 
-[5]) (./3-solucao.tex
-Package epstopdf Info: Source file: <figuras/Dwing.eps>
-(epstopdf)                    date: 2014-09-01 16:28:08
-(epstopdf)                    size: 279881 bytes
-(epstopdf)             Output file: <figuras/Dwing-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-01 16:28:08
-(epstopdf)                    size: 349997 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Dwing-eps-converte
-d-to.pdf figuras/Dwing.eps>
+) (./3-solucao.tex [4]
+Package epstopdf Info: Source file: <figuras/dw.eps>
+(epstopdf)                    date: 2014-09-05 18:44:16
+(epstopdf)                    size: 26740831 bytes
+(epstopdf)             Output file: <figuras/dw-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-05 22:29:39
+(epstopdf)                    size: 326184 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/dw-eps-converted-t
+o.pdf figuras/dw.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Dwing-eps-converted-to.pdf, id=33, 1967.35pt x 1957.3125pt>
-File: figuras/Dwing-eps-converted-to.pdf Graphic file (type pdf)
+<figuras/dw-eps-converted-to.pdf, id=30, 2221.29875pt x 1995.455pt>
+File: figuras/dw-eps-converted-to.pdf Graphic file (type pdf)
 
-<use figuras/Dwing-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Dwing-eps-converted-to.pdf used on input line 
-10.
-(pdftex.def)             Requested size: 275.42712pt x 274.02188pt.
+<use figuras/dw-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/dw-eps-converted-to.pdf used on input line 10.
+
+(pdftex.def)             Requested size: 310.9797pt x 279.3618pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 11.
- [6]
+ [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
-) (./4-estudo-de-caso.tex [7 <./figuras/Dwing-eps-converted-to.pdf>]
+) (./4-estudo-de-caso.tex [6 <./figuras/dw-eps-converted-to.pdf>] (./tabelas/ob
+jetivos.ltx
+Underfull \hbox (badness 1337) in paragraph at lines 8--9
+[]\OT1/ptm/m/n/12 OE1 - Au-to-ma-ti-zar o
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 qua-li-dade do c[]odigo-
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 fonte do pro-duto de
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 9--10
+\OT1/ptm/m/n/12 pas-sos ne-cess[]arios para me-dir
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/ptm/m/n/12 M2 - Quan-ti-dade de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/ptm/m/n/12 Cen[]arios de Lim-peza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/ptm/m/n/12 iden-ti-fi-ca-dos em uma
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 17--18
+[]\OT1/ptm/m/n/12 QE3 - Quais s[]ao os in-di-ca-
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 17--18
+\OT1/ptm/m/n/12 c[]odigo-fonte de uma de-ter-mi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\OT1/ptm/m/n/12 M3 - Quan-ti-dade de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/ptm/m/n/12 Cen[]arios de Lim-peza
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 20--21
+[]\OT1/ptm/m/n/12 OE4 - Me-dir qual []e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\OT1/ptm/m/n/12 o apro-vei-ta-mento de
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 20--21
+\OT1/ptm/m/n/12 opor-tu-ni-da-des de me-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 21--22
+\OT1/ptm/m/n/12 de opor-tu-ni-da-des de me-lho-ria
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 22--23
+[]\OT1/ptm/m/n/12 M4 - Taxa de Apro-vei-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 22--23
+\OT1/ptm/m/n/12 de Me-lho-ria de C[]odigo-
+ []
+
+)
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 1--15
+ [][] 
+ []
+
+[7]
 Package epstopdf Info: Source file: <figuras/total-cenario-tipo.eps>
 (epstopdf)                    date: 2014-09-01 16:28:08
 (epstopdf)                    size: 1016457 bytes
@@ -988,16 +1010,15 @@ o.pdf>
 (epstopdf)                    size: 22945 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenario-tipo
 -eps-converted-to.pdf figuras/total-cenario-tipo.eps>
-(epstopdf)             \includegraphics on input line 21.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/total-cenario-tipo-eps-converted-to.pdf, id=45, 993.7125pt x 168.63pt>
 File: figuras/total-cenario-tipo-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/total-cenario-tipo-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenario-tipo-eps-converted-to.pdf used o
-n input line 21.
+n input line 30.
 (pdftex.def)             Requested size: 427.28804pt x 72.50948pt.
- [8]
 Package epstopdf Info: Source file: <figuras/total-cenarios-release.eps>
 (epstopdf)                    date: 2014-09-01 16:28:08
 (epstopdf)                    size: 288028 bytes
@@ -1007,19 +1028,19 @@ ed-to.pdf>
 (epstopdf)                    size: 9597 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenarios-rel
 ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenarios-release-eps-converted-to.pdf, id=49, 951.555pt x 49.183
+<figuras/total-cenarios-release-eps-converted-to.pdf, id=46, 951.555pt x 49.183
 75pt>
 File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figuras/total-cenarios-release-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenarios-release-eps-converted-to.pdf us
-ed on input line 31.
+ed on input line 40.
 (pdftex.def)             Requested size: 428.19579pt x 22.13246pt.
 
-Overfull \hbox (1.40443pt too wide) in paragraph at lines 31--32
+Overfull \hbox (1.40443pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
@@ -1031,16 +1052,16 @@ Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    size: 120935 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-best-eps-conver
 ted-to.pdf figuras/10-best.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/10-best-eps-converted-to.pdf, id=50, 682.55pt x 372.39125pt>
+<figuras/10-best-eps-converted-to.pdf, id=47, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-best-eps-converted-to.pdf used on input lin
-e 43.
+e 52.
 (pdftex.def)             Requested size: 375.40366pt x 204.81581pt.
- [9 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenari
+ [8 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenari
 os-release-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    date: 2014-09-01 16:28:08
@@ -1051,19 +1072,19 @@ Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    size: 39908 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-parcial-eps-c
 onverted-to.pdf figuras/taxa-parcial.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-parcial-eps-converted-to.pdf, id=60, 947.54pt x 466.74374pt>
+<figuras/taxa-parcial-eps-converted-to.pdf, id=57, 947.54pt x 466.74374pt>
 File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
-t line 53.
+t line 62.
 (pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
-) (./5-conclusao.tex [10 <./figuras/10-best-eps-converted-to.pdf> <./figuras/ta
-xa-parcial-eps-converted-to.pdf>]
-Underfull \hbox (badness 1502) in paragraph at lines 7--8
+) (./5-conclusao.tex [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/tax
+a-parcial-eps-converted-to.pdf>]
+Underfull \hbox (badness 1502) in paragraph at lines 6--8
 []\OT1/ptm/m/n/12 Com os re-sul-ta-dos apre-sen-ta-dos na Se[][]ao 4.2[], verif
 ica-se que uma ou-tra
  []
@@ -1092,7 +1113,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.5599> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.39996> on input line 1.
-[11] [12]) [13]
+[10] [11]) [12]
 (/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 2014/Baufaker/ArtigoW
 BMA/.texpadtmp/wbma.aux)
 
@@ -1101,10 +1122,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5973 strings out of 493315
- 86333 string characters out of 6137904
- 179067 words of memory out of 5000000
- 9240 multiletter control sequences out of 15000+600000
+ 5972 strings out of 493315
+ 86308 string characters out of 6137904
+ 176052 words of memory out of 5000000
+ 9239 multiletter control sequences out of 15000+600000
  35413 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,40p,1272b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1121,10 +1142,10 @@ ype1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 201
-4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (13 pages, 716271 bytes).
+4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (12 pages, 690368 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
