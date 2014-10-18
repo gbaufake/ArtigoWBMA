@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  18 OCT 2014 20:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  18 OCT 2014 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,8 +1092,8 @@ File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
 t line 63.
 (pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
-) (./5-conclusao.tex [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/tax
-a-parcial-eps-converted-to.pdf>]
+ [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/taxa-parcial-eps-conver
+ted-to.pdf>]) (./5-conclusao.tex
 Underfull \hbox (badness 1502) in paragraph at lines 6--8
 []\OT1/ptm/m/n/12 Com os re-sul-ta-dos apre-sen-ta-dos na Se[][]ao 4.2[], verif
 ica-se que uma ou-tra
@@ -1152,7 +1152,7 @@ ype1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 201
-4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (12 pages, 690877 bytes).
+4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (12 pages, 691780 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
