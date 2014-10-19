@@ -2,7 +2,6 @@
 
 A qualidade interna do produto de software pode ser medida, ainda em ambiente de desenvolvimento, por meio da avaliação de estruturas internas que compõem o sistema de software \cite{ISO25023}, sendo que as métricas extraídas diretamente do código-fonte são bons indicadores de qualidade interna de produto \cite{beck2003test}, pois são métricas objetivas e com características como validade, simplicidade, objetividade, fácil obtenção e robustez \cite{Mills:1999}.  
 
-
 Para a escolha das métricas utilizadas neste trabalho, consideramos: i) os estudos encontrados na literatura sobre métricas de código-fonte, dentre eles o trabalho de Marinescu \cite{marinescu2005measurement} um dos mais reconhecidos nesta área; ii) a existência de estudos que definem valores de referência para análise das métricas dos conceitos mais relevantes à manutenibilidade do software como o tamanho, complexidade interna , modularidade e grau de depedência entre módulos \cite{Meirelles2013} iii) métricas que reflitam indicadores sobre boas práticas de programação, como por exemplo, a aderência a padrões de projeto e boas práticas de programação \cite{Machini2010}  ; iv) a existência das métricas na ferramenta de análise estática de código-fonte utilizada neste trabalho. Essas métricas escolhidas foram reunidas e são apresentadas na Tabela \ref{orientacao}.     
 
 	\begin{table}[h]
@@ -25,7 +24,8 @@ Em um trabalho recente sobre a análise de métricas de código-fonte, foi obser
 	\label{tab:good-metrics}
 	\end{center}
 	\end{table}
-Em outros trabalhos como os de Marinescu  \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado é possível detectar trechos de código-fonte que podem ser melhorados\cite{fowler1999refactoring}, por meio da análise de métricas de código-fonte como forma de detecção. \cite{Machini2010}, tendo como base alguns destes trabalhos, construiu um mapeamento entre as métricas de código-fonte e as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a construir cenários que indicam a possibilidade de melhoria no código-fonte.
+
+Nos trabalhos como os de Marinescu  \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado que é possível detectar trechos de código-fonte que podem ser melhorados\cite{fowler1999refactoring}, por meio da análise de métricas de código-fonte como forma de detecção. \cite{Machini2010}, tendo como base alguns destes trabalhos, construiu um mapeamento entre as métricas de código-fonte e as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a construir cenários que indicam a possibilidade de melhoria no código-fonte.
 
 Considerando alguns cenários do trabalho de Machini \cite{Machini2010} como base, foram construídos mapeamentos chamados de cenários de limpeza de código-fonte, que são mostrados Tabela \ref{tab:cenarios}. Cada cenário foi identificado por um nome, características da disposição do código-fonte, recomendações a fim de eliminar o pedaço de código não coeso e a forma de detecção pelos intervalos de frequência do trabalho de Meirelles \cite{Meirelles2013} que é compatível também com a forma de detecção apresentada nos trabalhos de Marinescu, Moha e Rao.
 	

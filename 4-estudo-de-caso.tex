@@ -7,7 +7,7 @@ O Sistema Integrado de Gestão do Conhecimento (SICG) teve como objetivo automat
 \subsection{Protocolo do Estudo de Caso}
 Seguindo a metodologia proposta por Wohlin \cite{wohlin2012experimentation}, foi construído um protocolo de estudo de caso que foi baseado em Brereton \cite{brereton2008using} quanto aos aspectos gerais e Yin \cite{yin2011applications} com relação as ameaças à validade do estudo. 
 
-O objeto do estudo de caso é o ambiente de \textit{Data Warehousing} (DWing) projetado e implementado conforme apresentado na seção 3. A fonte de coleta dos dados, foi o código fonte do SICG. A partir do objetivo da pesquisa, foram elaborados objetivos específicos do estudo de caso utilizando o \textit{Goal Question Metric} (GQM) \cite{Basili96b}. Nesta abordagem cada objetivo específico derivou uma série de questões específicas que são respondidas com métricas específicas, tal como se mostra na Tabela \ref{tbl:obj}
+O objeto do estudo de caso é o ambiente de \textit{Data Warehousing} (DWing) projetado e implementado conforme apresentado na seção 3. A fonte de coleta dos dados, foi o código fonte do SICG. A partir do objetivo da pesquisa, foram elaborados objetivos específicos do estudo de caso utilizando o \textit{Goal Question Metric} (GQM) \cite{Basili96b}. Nesta abordagem cada objetivo específico derivou uma série de questões específicas que são respondidas com métricas específicas, tal como se mostra na Tabela \ref{tbl:obj}.
 
 \begin{table}[ht]
 \centering
@@ -66,8 +66,8 @@ Com a quantidade de classes e o total de cenários de limpeza de código-fonte, 
 \end{figure}
 \FloatBarrier
 
+Considerando o crescimento do projeto, segundo as leis de Lehman \cite{Lehman1980b}, embora se esperasse inicialmente que o valor de $ T_r $ aumentasse também, verificou-se,  como apresentado na Figura \ref{fig:taxa-cenarios}, que o valor variou entre 0,4 a 0.5, apresentando uma tendência de estabilidade no decorrer do projeto.  Esse fato pode indicar que o projeto cresceu em uma taxa maior que a quantidade de cenários de limpeza, logo verificando-se assim uma estabilidade na quantidade de código defeituoso inserido com os incrementos das releases. Porém, necessitamos ampliar o estudo de forma a possuirmos uma amostragem estatisticamente significativa para analisarmos o comportamento da distribuição da taxa comparando com outros projetos.
 
-Considerando o comportamento da Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte apresentado na Figura \ref{fig:taxa-cenarios}, verifica-se que o valor variou entre 0,4 a 0.5 no decorrer do projeto. Este fato pode indicar que o projeto cresceu em uma taxa muito maior que a quantidade de cenários de limpeza, logo verificando-se assim uma estabilidade na complexidade do projeto.
 
 A principal dificuldade encontrada com o uso do ambiente de DWing foi o esforço necessário para a construção camada de ETL, amplamente relatado na literatura de referência desta área. Cabe registrar que a definição do esquema do DW pode impactar diretamente as transformações já construídas na camada de ETL. Ou seja, toda vez que realizamos alguma alteração no esquema, tivemos que alterar as transformações previamente construídas na camada de ETL.
 Por outro lado, nos beneficiamos da facilidade de automação, flexibilidade para consultas e visualização, disponíveis em um ambiente de DWing.
