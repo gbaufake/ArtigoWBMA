@@ -15,6 +15,7 @@ Para a escolha das métricas utilizadas neste trabalho, consideramos: i) os estu
 	\end{center}
 	\end{table}
 
+
 Em um trabalho recente sobre a análise de métricas de código-fonte, foi observado o comportamento estatístico das métricas de código-fonte de 38 projetos de software livre com mais de 100.000 downloads em um esforço de análise de mais de 300.000 classes. Entre os softwares analisados estão Tomcat, OpenJDK, Eclipse, Google Chrome, VLC e entre outros que foram desenvolvidos em C, C++ e Java \cite{Meirelles2013}. Neste trabalho, concluiu-se que há valores muitos frequentes, frequentes, pouco frequentes e não frequentes para softwares escritos em uma mesma linguagem de programação. Ao considerarmos a linguagem Java e o softwares que obtiveram os melhores resultados, como Eclipse e o OpenJDK 8, obtiveram-se as configurações tal como se mostra na Tabela \ref{tab:good-metrics}.  
 
 
@@ -26,25 +27,32 @@ Em um trabalho recente sobre a análise de métricas de código-fonte, foi obser
 	\label{tab:good-metrics}
 	\end{center}
 	\end{table}
+	\FloatBarrier
 
-Nos trabalhos como os de Marinescu  \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado que é possível detectar trechos de código-fonte que podem ser melhorados\cite{fowler1999refactoring}, por meio da análise de métricas de código-fonte como forma de detecção. \cite{Machini2010}, tendo como base alguns destes trabalhos, construiu um mapeamento entre as métricas de código-fonte e as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a construir cenários que indicam a possibilidade de melhoria no código-fonte.
 
-Considerando alguns cenários do trabalho de Machini \cite{Machini2010} como base, foram construídos mapeamentos chamados de cenários de limpeza de código-fonte, que são mostrados Tabela \ref{tab:cenarios}. Cada cenário foi identificado por um nome, características da disposição do código-fonte, recomendações a fim de eliminar o pedaço de código não coeso e a forma de detecção pelos intervalos de frequência do trabalho de Meirelles \cite{Meirelles2013} que é compatível também com a forma de detecção apresentada nos trabalhos de Marinescu, Moha e Rao.
+
+Nos trabalhos como os de Marinescu \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado que é possível utilizar métricas de código-fonte como forma de detecção de trechos de código-fonte que podem ser melhorados com a refatoração \cite{fowler1999refactoring}.
+
+
+Seguindo a abordagem de Marinescu, \cite{Machini2010} mapeou as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a constuir cenários de limpeza de código-fonte que são recomendações ou práticas para eliminar um determinado trecho de código-fonte não coeso. No trabalho de \cite{Machini2010}, não foi utilizada nenhuma automatização para cálculo das métricas e posterior identificação de um cenário de limpeza.
+
+De posse da análise estátística efetuada por Meirelles \cite{Meirelles2013}, agregamos as configurações dos intervalos de métricas, que foram descritas na Tabela \ref{tab:good-metrics}, como a forma de detecção dos cenários de limpeza propostos por \cite{Machini2010}, tal como se é possível observar na Tabela \ref{tab:cenarios}.
 	
 	\begin{table}[ht]
 	\centering
-	\caption{Cenários de Limpeza de Código-Fonte}
+	\caption{Detecção dos Cenários de Limpeza de Código-Fonte}
 	\addtolength{\belowcaptionskip}{6pt}
 	\input{tabelas/cenarios.ltx}	
 	\label{tab:cenarios}
 	\end{table}
+	\FloatBarrier
 
 
-A partir da identificação dos cenários de limpeza de código-fonte e da contagem do número de classes em uma determinada \textit{release} do software, criamos Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte $(T_r)$ como uma indicador objetivo de monitoramento da oportunidade de melhoria da qualidade do código-fonte, sendo que este é descrito conforme a Equação \ref{eqn01}.
+A partir da identificação dos cenários de limpeza de código-fonte e da contagem do número de classes em uma determinada \textit{release} do software, criamos a Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte $(T_r)$ como uma indicador objetivo de monitoramento da oportunidade de melhoria da qualidade do código-fonte, sendo que este é descrito conforme a Equação \ref{eqn01}, em que $ Ce_r $ é o total de cenários de limpeza na release e $ Cl_r $ é a quantidade classes na mesma release.
 
 \begin{equation}
 \label{eqn01}
 T_r =   \frac{{{Ce_r}}}{{Cl_r}}
 \end{equation}
 
-onde $ Ce_r $ é o total de cenários de limpeza em uma release e $ Cl_r $ é a quantidade classes na mesma release.
+
