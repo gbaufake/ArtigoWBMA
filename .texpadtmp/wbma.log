@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  18 OCT 2014 20:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  21 OCT 2014 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,19 +536,19 @@ Package: cite 2010/09/10  v 5.3
 BMA/.texpadtmp/wbma.aux)
 \openout1 = `wbma.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -605,30 +605,25 @@ Package caption Info: End \AtBeginDocument code.
 )
 \AtBeginShipoutBox=\box38
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./resumo.tex
+)
+(./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
-
-Underfull \hbox (badness 5431) in paragraph at lines 3--8
-[]\OT1/ptm/m/it/12 Atualmente, al-gu-mas organiza[][]oes da Administra[][]ao P[
-]ublica
- []
-
-
+) (./resumo.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
@@ -665,8 +660,10 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 16.
 )
-(./2-metricas.tex [2 <./figuras/MCTI-eps-converted-to.pdf>]
-(./tabelas/orientacao-objeto.ltx
+(./2-metricas.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./figuras/MCTI-eps-converted-to.pdf>] (./tabelas/orientacao-objeto.ltx
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 6.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -681,7 +678,12 @@ Underfull \hbox (badness 5119) in paragraph at lines 10--10
 []\OT1/ptm/m/n/12 AMLOC (\OT1/ptm/m/it/12 Ave-rage Method
  []
 
-) [3] (./tabelas/metricas.ltx) (./tabelas/cenarios.ltx
+) [3]
+
+LaTeX Warning: Reference `tab:good-metrics' on page 4 undefined on input line 2
+6.
+
+(./tabelas/cenarios.ltx
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 []\OT1/ptm/m/n/12 Classe Sub-di-vida
  []
@@ -887,11 +889,11 @@ Underfull \hbox (badness 6641) in paragraph at lines 21--21
  []
 
 )
-Overfull \hbox (2.47583pt too wide) in paragraph at lines 1--38
+Overfull \hbox (2.47583pt too wide) in paragraph at lines 1--34
  [][] 
  []
 
-) (./3-solucao.tex [4]
+[4]) (./3-solucao.tex [5]
 Package epstopdf Info: Source file: <figuras/dw.eps>
 (epstopdf)                    date: 2014-09-05 18:44:16
 (epstopdf)                    size: 26740831 bytes
@@ -903,22 +905,21 @@ o.pdf figuras/dw.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dw-eps-converted-to.pdf, id=30, 2221.29875pt x 1995.455pt>
+<figuras/dw-eps-converted-to.pdf, id=33, 2221.29875pt x 1995.455pt>
 File: figuras/dw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dw-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/dw-eps-converted-to.pdf used on input line 10.
 
-(pdftex.def)             Requested size: 310.9797pt x 279.3618pt.
+(pdftex.def)             Requested size: 222.14288pt x 199.55719pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 11.
- [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 18.
 ) (./4-estudo-de-caso.tex [6 <./figuras/dw-eps-converted-to.pdf>] (./tabelas/ob
 jetivos.ltx
 Underfull \hbox (badness 1337) in paragraph at lines 8--9
@@ -991,11 +992,6 @@ Underfull \hbox (badness 2035) in paragraph at lines 20--21
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 21--22
-\OT1/ptm/m/n/12 de opor-tu-ni-da-des de me-lho-ria
- []
-
-
 Underfull \hbox (badness 1571) in paragraph at lines 22--23
 []\OT1/ptm/m/n/12 M4 - Taxa de Apro-vei-
  []
@@ -1006,7 +1002,7 @@ Underfull \hbox (badness 1406) in paragraph at lines 22--23
  []
 
 )
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 1--18
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 1--16
  [][] 
  []
 
@@ -1020,40 +1016,40 @@ o.pdf>
 (epstopdf)                    size: 22945 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/total-cenario-tipo
 -eps-converted-to.pdf figuras/total-cenario-tipo.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
 <figuras/total-cenario-tipo-eps-converted-to.pdf, id=45, 993.7125pt x 168.63pt>
 File: figuras/total-cenario-tipo-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/total-cenario-tipo-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/total-cenario-tipo-eps-converted-to.pdf used o
-n input line 31.
+n input line 29.
 (pdftex.def)             Requested size: 427.28804pt x 72.50948pt.
-Package epstopdf Info: Source file: <figuras/total-cenarios-release.eps>
-(epstopdf)                    date: 2014-09-01 16:28:08
-(epstopdf)                    size: 288028 bytes
-(epstopdf)             Output file: <figuras/total-cenarios-release-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-09-01 16:28:08
-(epstopdf)                    size: 9597 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/total-cenarios-rel
-ease-eps-converted-to.pdf figuras/total-cenarios-release.eps>
+Package epstopdf Info: Source file: <figuras/classesXcenarios.eps>
+(epstopdf)                    date: 2014-10-21 12:10:39
+(epstopdf)                    size: 1708172 bytes
+(epstopdf)             Output file: <figuras/classesXcenarios-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2014-10-21 12:11:30
+(epstopdf)                    size: 22621 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/classesXcenarios-e
+ps-converted-to.pdf figuras/classesXcenarios.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/total-cenarios-release-eps-converted-to.pdf, id=46, 951.555pt x 49.183
-75pt>
-File: figuras/total-cenarios-release-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figuras/total-cenarios-release-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/total-cenarios-release-eps-converted-to.pdf us
-ed on input line 41.
-(pdftex.def)             Requested size: 428.19579pt x 22.13246pt.
+<figuras/classesXcenarios-eps-converted-to.pdf, id=46, 886.31125pt x 179.67125p
+t>
+File: figuras/classesXcenarios-eps-converted-to.pdf Graphic file (type pdf)
+ <use figuras/classesXcenarios-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/classesXcenarios-eps-converted-to.pdf used on 
+input line 41.
+(pdftex.def)             Requested size: 443.15454pt x 89.83539pt.
 
-Overfull \hbox (1.40443pt too wide) in paragraph at lines 41--42
+Overfull \hbox (16.36319pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
+[8 <./figuras/total-cenario-tipo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    date: 2014-09-01 16:28:08
 (epstopdf)                    size: 1538818 bytes
@@ -1062,17 +1058,16 @@ Package epstopdf Info: Source file: <figuras/10-best.eps>
 (epstopdf)                    size: 120935 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/10-best-eps-conver
 ted-to.pdf figuras/10-best.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/10-best-eps-converted-to.pdf, id=47, 682.55pt x 372.39125pt>
+
+<figuras/10-best-eps-converted-to.pdf, id=53, 682.55pt x 372.39125pt>
 File: figuras/10-best-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/10-best-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/10-best-eps-converted-to.pdf used on input lin
-e 53.
-(pdftex.def)             Requested size: 375.40366pt x 204.81581pt.
- [8 <./figuras/total-cenario-tipo-eps-converted-to.pdf> <./figuras/total-cenari
-os-release-eps-converted-to.pdf>]
+e 51.
+(pdftex.def)             Requested size: 354.92804pt x 193.64456pt.
 Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    date: 2014-09-01 16:28:08
 (epstopdf)                    size: 2673264 bytes
@@ -1082,24 +1077,27 @@ Package epstopdf Info: Source file: <figuras/taxa-parcial.eps>
 (epstopdf)                    size: 39908 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/taxa-parcial-eps-c
 onverted-to.pdf figuras/taxa-parcial.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/taxa-parcial-eps-converted-to.pdf, id=57, 947.54pt x 466.74374pt>
+<figuras/taxa-parcial-eps-converted-to.pdf, id=54, 947.54pt x 466.74374pt>
 File: figuras/taxa-parcial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/taxa-parcial-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/taxa-parcial-eps-converted-to.pdf used on inpu
-t line 63.
-(pdftex.def)             Requested size: 360.06894pt x 177.36446pt.
- [9 <./figuras/10-best-eps-converted-to.pdf> <./figuras/taxa-parcial-eps-conver
-ted-to.pdf>]) (./5-conclusao.tex
+t line 61.
+(pdftex.def)             Requested size: 331.64397pt x 163.36275pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./figuras/classesXcenarios-eps-converted-to.pdf> <./figuras/10-best-eps-co
+nverted-to.pdf>]) (./5-conclusao.tex
 Underfull \hbox (badness 1502) in paragraph at lines 6--8
 []\OT1/ptm/m/n/12 Com os re-sul-ta-dos apre-sen-ta-dos na Se[][]ao 4.2[], verif
 ica-se que uma ou-tra
  []
 
-)
+[10 <./figuras/taxa-parcial-eps-converted-to.pdf>])
 (/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 2014/Baufaker/ArtigoW
 BMA/.texpadtmp/wbma.bbl
 LaTeX Font Info:    Calculating math sizes for size <10.79993> on input line 1.
@@ -1123,22 +1121,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.5599> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.39996> on input line 1.
-[10] [11]) [12]
+[11] [12]) [13]
 (/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 2014/Baufaker/ArtigoW
 BMA/.texpadtmp/wbma.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4401pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 5972 strings out of 493315
- 86308 string characters out of 6137904
- 176060 words of memory out of 5000000
- 9239 multiletter control sequences out of 15000+600000
+ 5970 strings out of 493315
+ 86245 string characters out of 6137904
+ 172054 words of memory out of 5000000
+ 9238 multiletter control sequences out of 15000+600000
  35413 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,14n,40p,1272b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,40p,1190b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
@@ -1152,10 +1153,10 @@ ype1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "/Users/Hilmer/Documents/hilmer/UNB/2014.2/Pesquisa/Agile 201
-4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (12 pages, 691780 bytes).
+4/Baufaker/ArtigoWBMA/.texpadtmp/wbma.pdf" (13 pages, 705931 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

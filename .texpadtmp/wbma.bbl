@@ -46,7 +46,8 @@ BRASIL (1993).
 \bibitem[BRASIL 2010]{IN04:2010}
 BRASIL (2010).
 \newblock {\em Instrução Normativa nº 04}.
-\newblock Tribunal de Contas da União, Brasília, Brasil.
+\newblock Minist\'erio do Planejamento, Orçamento e Gest\~ao, Brasília,
+  Brasil.
 
 \bibitem[BRASIL 2013a]{TCU:2013}
 BRASIL (2013a).
@@ -185,10 +186,6 @@ Palza, E., Fuhrman, C., and Abran, A. (2003).
 Rao, A.~A. and Reddy, K.~N. (2007).
 \newblock Detecting bad smells in object oriented design using design change
   propagation probability matrix 1.
-
-\bibitem[Rocha 2000]{andre2000}
-Rocha, A.~B. (2000).
-\newblock Guardando históricos de dimensões em data warehouses.
 
 \bibitem[Rosenberg and Hyatt 1997]{Rosenberg97}
 Rosenberg, L.~H. and Hyatt, L.~E. (1997).

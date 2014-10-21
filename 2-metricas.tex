@@ -3,7 +3,7 @@
 A qualidade interna do produto de software pode ser medida, ainda em ambiente de desenvolvimento, por meio da avaliação de estruturas internas que compõem o sistema de software \cite{ISO25023}, sendo que as métricas extraídas diretamente do código-fonte são bons indicadores de qualidade interna de produto \cite{beck2003test}, pois são métricas objetivas e com características como validade, simplicidade, objetividade, fácil obtenção e robustez \cite{Mills:1999}.  
 
 
-Para a escolha das métricas utilizadas neste trabalho, consideramos: i) os estudos encontrados na literatura sobre métricas de código-fonte, dentre eles o trabalho de Marinescu \cite{marinescu2005measurement} um dos mais reconhecidos nesta área; ii) a existência de estudos que definem valores de referência para análise das métricas dos conceitos mais relevantes à manutenibilidade do software como o tamanho, complexidade interna , modularidade e grau de depedência entre módulos \cite{Meirelles2013} iii) métricas que reflitam indicadores sobre boas práticas de programação, como por exemplo, a aderência a padrões de projeto e boas práticas de programação \cite{Machini2010}; iv) a existência das métricas na ferramenta de análise estática de código-fonte utilizada neste trabalho. Essas métricas escolhidas foram reunidas e são apresentadas na Tabela \ref{orientacao}.     
+Para a escolha das métricas utilizadas neste trabalho, consideramos: i) os estudos encontrados na literatura sobre métricas de código-fonte, entre eles o trabalho de Marinescu \cite{marinescu2005measurement} um dos mais reconhecidos nesta área; ii) a existência de estudos que definem valores de referência para análise das métricas dos conceitos mais relevantes à manutenibilidade do software como o tamanho, complexidade interna, modularidade e grau de depedência entre módulos \cite{Meirelles2013}; iii) métricas que reflitam indicadores sobre boas práticas de programação, a exemplo da aderência a padrões de projeto e boas práticas de programação \cite{Machini2010}; iv) a existência das métricas na ferramenta de análise estática de código-fonte utilizada neste trabalho. Essas métricas escolhidas foram reunidas e são apresentadas na Tabela \ref{orientacao}.     
 
 
 	\begin{table}[h]
@@ -16,27 +16,14 @@ Para a escolha das métricas utilizadas neste trabalho, consideramos: i) os estu
 	\end{table}
 
 
-Em um trabalho recente sobre a análise de métricas de código-fonte, foi observado o comportamento estatístico das métricas de código-fonte de 38 projetos de software livre com mais de 100.000 downloads em um esforço de análise de mais de 300.000 classes. Entre os softwares analisados estão Tomcat, OpenJDK, Eclipse, Google Chrome, VLC e entre outros que foram desenvolvidos em C, C++ e Java \cite{Meirelles2013}. Neste trabalho, concluiu-se que há valores muitos frequentes, frequentes, pouco frequentes e não frequentes para softwares escritos em uma mesma linguagem de programação. Ao considerarmos a linguagem Java e o softwares que obtiveram os melhores resultados, como Eclipse e o OpenJDK 8, obtiveram-se as configurações tal como se mostra na Tabela \ref{tab:good-metrics}.  
-
-
-	\begin{table}[!ht]
-	\caption{Configurações para os Intervalos das Métricas}
-	\addtolength{\belowcaptionskip}{2pt}
-	\begin{center}
-	\input{tabelas/metricas.ltx}	
-	\label{tab:good-metrics}
-	\end{center}
-	\end{table}
-	\FloatBarrier
-
-
+Em um trabalho recente sobre a análise de métricas de código-fonte, foi observado o comportamento estatístico das métricas de código-fonte de 38 projetos de software livre com mais de 100.000 downloads em um esforço de análise de mais de 300.000 classes. Entre os softwares analisados estão Tomcat, OpenJDK, Eclipse, Google Chrome, VLC e outros que foram desenvolvidos em C, C++ e Java \cite{Meirelles2013}. Neste trabalho, concluiu-se empiricamente que há valores de referência para métricas de código-fonte, que foram classificados como muito frequentes, frequentes, pouco frequentes e não frequentes para softwares escritos em uma mesma linguagem de programação.
 
 Nos trabalhos como os de Marinescu \cite{marinescu2005measurement}, Moha \cite{moha2010decor} e Rao \cite{rao2007detecting}, foi mostrado que é possível utilizar métricas de código-fonte como forma de detecção de trechos de código-fonte que podem ser melhorados com a refatoração \cite{fowler1999refactoring}.
 
 
-Seguindo a abordagem de Marinescu, \cite{Machini2010} mapeou as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a constuir cenários de limpeza de código-fonte que são recomendações ou práticas para eliminar um determinado trecho de código-fonte não coeso. No trabalho de \cite{Machini2010}, não foi utilizada nenhuma automatização para cálculo das métricas e posterior identificação de um cenário de limpeza.
+Seguindo a abordagem de Marinescu, Machini \cite{Machini2010} mapeou as técnicas e práticas de limpeza de código-fonte propostas por \cite{Martin2008} e \cite{beck2007implementation} de forma a constuir cenários de limpeza de código-fonte que são recomendações ou práticas para eliminar um determinado trecho de código-fonte não coeso. No trabalho de \cite{Machini2010}, não foi utilizada nenhuma automatização para cálculo das métricas e posterior identificação de um cenário de limpeza.
 
-De posse da análise estátística efetuada por Meirelles \cite{Meirelles2013}, agregamos as configurações dos intervalos de métricas, que foram descritas na Tabela \ref{tab:good-metrics}, como a forma de detecção dos cenários de limpeza propostos por \cite{Machini2010}, tal como se é possível observar na Tabela \ref{tab:cenarios}.
+De posse da análise estatística efetuada por Meirelles \cite{Meirelles2013}, agregamos as configurações dos intervalos de métricas, que foram descritas na Tabela \ref{tab:good-metrics}, como a forma de detecção dos cenários de limpeza propostos por \cite{Machini2010}, tal como se é possível observar na Tabela \ref{tab:cenarios}.
 	
 	\begin{table}[ht]
 	\centering
@@ -48,11 +35,9 @@ De posse da análise estátística efetuada por Meirelles \cite{Meirelles2013}, 
 	\FloatBarrier
 
 
-A partir da identificação dos cenários de limpeza de código-fonte e da contagem do número de classes em uma determinada \textit{release} do software, criamos a Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte $(T_r)$ como uma indicador objetivo de monitoramento da oportunidade de melhoria da qualidade do código-fonte, sendo que este é descrito conforme a Equação \ref{eqn01}, em que $ Ce_r $ é o total de cenários de limpeza na release e $ Cl_r $ é a quantidade classes na mesma release.
+A partir da identificação dos cenários de limpeza de código-fonte e da contagem do número de classes em uma determinada \textit{release} do software, criamos a Taxa de Aproveitamento de Oportunidade de Melhoria de Código-Fonte $(T_r)$ como um indicador objetivo de monitoramento da oportunidade de melhoria da qualidade do código-fonte, sendo este descrito conforme a Equação \ref{eqn01}, em que $ Ce_r $ é o total de cenários de limpeza na release e $ Cl_r $ é a quantidade classes na mesma release.
 
 \begin{equation}
 \label{eqn01}
 T_r =   \frac{{{Ce_r}}}{{Cl_r}}
 \end{equation}
-
-
