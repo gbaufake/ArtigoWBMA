@@ -38,11 +38,6 @@ Becker, K., Ruiz, D.~D., Cunha, V.~S., Novello, T.~C., and Vieira~e Souza, F.
   Workshop}, SEW '06, pages 107--118, Washington, DC, USA. IEEE Computer
   Society.
 
-\bibitem[BRASIL 1993]{Lei8666:1993}
-BRASIL (1993).
-\newblock {\em Lei nª 8.666/93, de 21 de Junho de 1993}.
-\newblock Brasília, Brasil.
-
 \bibitem[BRASIL 2010]{IN04:2010}
 BRASIL (2010).
 \newblock {\em Instrução Normativa nº 04}.
@@ -131,11 +126,6 @@ Kimball, R. and Ross, M. (2002).
 \newblock {\em The Data Warehouse Toolkit: The Complete Guide to Dimensional
   Modeling}.
 \newblock John Wiley \& Sons, Inc., New York, NY, USA, 2nd edition.
-
-\bibitem[Lehman 1980]{Lehman1980b}
-Lehman, M.~M. (1980).
-\newblock Programs, life cycles, and laws of software evolution.
-\newblock {\em Proc. IEEE}, 68(9):1060--1076.
 
 \bibitem[Machini et~al. 2010]{Machini2010}
 Machini, J.~a., Almeida, L., Kon, F., and Meirelles, P. R.~M. (2010).
