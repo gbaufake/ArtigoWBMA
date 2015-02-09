@@ -33,7 +33,8 @@
 *.vrb
 *.xdy
 *.tdo
-*.pdf
+*.log
+*.blg
 
 # Created by https://www.gitignore.io
 
